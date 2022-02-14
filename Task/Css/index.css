@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#first{
+    color: #95898e;
+    background-color: #f6f6f8;
+    height: 35px;
+    padding: 10px;
+    font-size: 13px;
+}
+.center a{
+    text-decoration: none;
+}
+.right-icons{
+    word-spacing: 15px;
+   
+    
+}
+
+#header{
+    background-color: white;
+    padding: 10px;
+    
+}
+
+#header a{
+    color: black;
+}
+
+.text-center-header{
+    word-spacing: 20px;
+}
+
+.slider{
+    background-image: url(https://wp.the4.co/kalles/wp-content/uploads/2021/07/slideshow_image.jpg);
+
+
+    background-repeat: no-repeat ;
+    background-size: cover;
+    padding: 210px;
+    background-position: center;
+}
+
+.slider-header{
+    color: white;
+    margin-bottom: 0;
+}
+.slider-header h1{
+    margin-bottom: 0;
+}
+
+.btn-1{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    border: solid 2px white;
+    margin-top: 10px;
+ 
+}
+
+.btn-2{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border-radius: 15px;
+    border: solid 2px black;
+    margin-top: 10px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    transition: 0.4s;
+ 
+}
+
+.btn-2:hover{
+    color: white;
+    background-color: #56CFE1;
+}
+
+
+#h1{
+    font-size: 60px;
+}
+
+
+.row{
+    justify-content: center;
+   
+}
+
+
+.button-2:hover{
+    background-color: transparent;
+}
+
+
+.box-trend-img img{
+   
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+
+
+
+.mycontainer{
+    margin: 0 12.5rem;    
+}
+
+.box-trend-img{
+    position: relative;
+}
+
+.box-trend-img .view{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 8px;
+    width: 50%;
+    text-align: center;
+    opacity: 0;
+    transition: 0.4s;
+    z-index: 1;
+  
+}
+
+
+.box-trend-img:hover .view{
+    opacity: 1;
+    top: 40%;
+}
+
+
+
+
+
+.view:hover {
+   top: 10%;
+}
+
+
+
+
+
+.box-img img{
+    height: auto;
+    width: 100%;
+}
+
+.row{
+
+    justify-content: center;
+}
+
+
+
+.box-img {
+    position: relative;
+ 
+   margin-bottom: 10px;
+    overflow: hidden; 
+  }
+  
+
+  .box-img img {
+    transition: transform .5s ease;
+  }
+  
+  
+  .box-img:hover img {
+    transform: scale(1.1);
+  }
+
+ #box{
+     margin-top: 15px;
+    position: relative;
+ }
+
+  #box a{
+      position: absolute;
+      top: 80%;
+      left: 30%;
+      text-decoration: none;
+      background-color: white;
+      height: 35px;
+      width: 150px;
+      text-align: center;
+      color: black;
+      padding: 5px;
+  }
+
+#box5{
+    position: relative;
+}
+#box7{
+    position: relative;
+}
+
+#box6{
+    position: relative;
+}
+
+.heart-icon{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    opacity: 0;
+    transition: 0.4s;
+    cursor: pointer;
+   
+}
+
+ @keyframes beat{
+	to { transform: scale(1.4); }
+}
+
+.compare-icon{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    opacity: 0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#box6:hover .heart-icon{
+    opacity: 1;
+    
+}
+.box-trend-img:hover .heart-icon{
+    opacity: 1;
+    
+}
+#box6:hover .compare-icon{
+    opacity: 1;
+}
+.box-trend-img:hover .compare-icon{
+    opacity: 1;
+}
+.compare-icon:hover{
+    animation: spin 1s linear infinite;
+}
+.heart-icon:hover{
+    animation: beat .25s infinite alternate;
+}
+@keyframes spin {
+    0% {
+      transform: rotateZ(0);
+    }
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+.lookbook{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+
+.Summer-sale{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.btn{
+    background-color: transparent;
+    border-radius: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+    width: 100px;
+    border: solid 1px black;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%,50%);
+}
+
+
+
+
+#view{
+    position: absolute;
+    text-decoration: none;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    opacity: 1;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    width: 35%;
+    height: 8%;
+    text-align: center;
+    padding: 5px;
+    transition: 0.4s;
+    opacity: 0;
+    
+}
+
+#quick{
+    position: absolute;
+    text-decoration: none;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    opacity: 1;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    width: 35%;
+    height: 8%;
+    text-align: center;
+    padding: 5px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+#box6:hover #view{
+    top: 40%;
+    opacity: 1;
+}
+#box6:hover #quick{
+    top: 40%;
+    opacity: 1;
+}
+#box6:hover #quick{
+    top: 50%;
+    opacity: 1;
+}
+
+#view:hover #quickv{
+    opacity: 0 ;
+   
+}
+#view:hover{
+    background-color: black;
+}
+
+
+#view:hover #eye-icon{
+    opacity: 1 ;
+    top: 30%;
+}
+
+#quick:hover #quickv{
+    opacity: 0 ;
+   
+}
+#quick:hover{
+    background-color: black;
+}
+
+#quick:hover #market{
+    opacity: 1 ;
+    top: 30%;
+}
+
+#eye-icon{
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    opacity: 0;
+    transition: 0.4s;
+    
+
+}
+#market{
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    opacity: 0;
+    transition: 0.4s;
+    
+
+}
+#view:hover #eye-icon{
+    opacity: 1;
+    text-align: center;
+}
+#quick:hover #market{
+    opacity: 1;
+    text-align: center;
+}
+
+.box6-info-bottom{
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    opacity: 0;
+    transition: 0.4s;
+}
+.dot {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    left: 35%;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.4s;
+  }
+.dot2 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #C0A09D;
+    border-radius: 50%;
+    display: inline-block;
+    left: 55%;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.4s;
+  }
+
+  #box6:hover .box6-info-bottom, .dot, .dot2 {
+      opacity: 1;
+  }
+
+.box-trend-img:hover #view{
+    top: 40%;
+    opacity: 1;
+}
+.box-trend-img:hover #quick{
+    top: 40%;
+    opacity: 1;
+}
+.box-trend-img:hover #quick{
+    top: 50%;
+    opacity: 1;
+}
+
+.box-trend-img #view{
+    width: 100px;
+    height: 35px;
+    margin-bottom: 5px;
+}
+.box-trend-img #quick{
+    margin-top: 10px;
+    width: 100px;
+    height: 35px;
+    margin-bottom: 5px;
+}
+
+#products a{
+    text-decoration: none;
+    color: black;
+
+    border-radius: 30px;
+    padding: 5px;
+    
+}
+
+#products a:hover{
+    border-style: dotted;
+}
+
+.box-trend-img{
+    margin-top: 25px;
+}
+
+.latest-img{
+    height: auto;
+    width: 100%;
+}
+
+#latest a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.latest-img {
+    position: relative;
+ 
+   margin-bottom: 10px;
+    overflow: hidden; 
+  }
+
+  .latest-img img {
+    transition: transform .5s ease;
+  }
+  
+  .latest-img:hover img {
+    transform: scale(1.1);
+  }
+
+
+
+  .instagram-img {
+    position: relative;
+ 
+   margin-bottom: 10px;
+    overflow: hidden; 
+  }
+  
+  
+  .instagram-img img {
+    transition: transform .5s ease;
+  }
+  
+
+  .instagram-img:hover img {
+    transform: scale(1.1);
+  }
+
+
+  
+  #instagram{
+      display: flex;
+  }
+
+
+
+.instagram-img img{
+    height: auto;
+    width: 100%;
+}
+
+.dot-insta1 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    left: 38%;
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.4s;
+    color: white;
+    text-align: center;
+    top: 33%;
+  }
+
+.instagram-img img{
+    position: relative;
+}
+
+#car-icon{
+    font-size: 40px;
+    
+}
+
+.section-footer-up{
+    margin-top: 30px;
+    background-color: #F6F6F8;
+    
+}
+.footer-up-info{
+    margin-top: 20px;
+}
+
+#email-info{
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.buts{
+    position: absolute;
+    top: 0%;
+    width: 50%;
+    color: white;
+    height: 37px;
+    margin-top: 20px;
+    background-color: black;
+    
+}
+
+footer{
+    height: 50px;
+    margin-top: 25px;
+    background-color: black;
+    padding: 10px;
+}
+
+#shipping{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.box-all{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-right a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.box-left p{
+    color: white;
+}
+
